@@ -10,38 +10,37 @@
       rel="stylesheet">
 </head>
 <body>
-    <header id="header">
-        <div class="container">
-            <div class="header-inner">
-                <div class="left-area">
-                    <h1 class="logo">자기소개</h1>
-                </div>
+    <div class="button" id="toggle">
+      <span class="top"></span>
+      <span class="middle"></span>
+      <span class="bottom"></span>
+    </div>
+    <div class="overlay" id="overlay">
+      <nav class="overlay-menu">
+        <ul>
+          <li class="home close" ><a >HOME</a></li>
+          <li class="about close"><a >ABOUT</a></li>
+          <li class="skills close"><a >SKILL</a></li>
+          <li class="works close"><a >WORKS</a></li>
+          <li class="contact close"><a >CONTACT</a></li>
+        </ul>
+      </nav>
+    </div>
 
-                <div class="right-area">
-                    <div class="btns-menu">
-                        <button class="btn home">Home</button>
-                        <button class="btn about">About</button>
-                        <button class="btn skills">Skills</button>
-                        <button class="btn works">Works</button>
-                        <button class="btn contact">Contact Me</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
-    <article class="main">
-        <div class="main-img"></div>
-    </article>
-
-    <section id="home">
+    <section id="home" class="section">
         <div class="wrapper">
-            <h1>Home</h1>
-            <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
-            <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias reprehenderit veniam, consequatur laborum nam quod architecto deserunt at error quis amet id voluptatibus ducimus vel velit magni illum temporibus ipsum!</h3>
+            <div class="shapes">
+              <div class="shape shape-1"></div>
+              <div class="shape shape-2"></div>
+              <div class="shape shape-3"></div>
+            </div>
+            <div class="content">
+              <h1>JiniFong's Portfolio</h1>
+            </div>
         </div>
     </section>
 
-    <section id="about">
+    <section id="about" class="section">
         <div class="wrapper">
             <h1>About</h1>
             <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
@@ -49,7 +48,7 @@
         </div>
     </section>
 
-    <section id="skills">
+    <section id="skills" class="section">
         <div class="wrapper">
             <h1>Skills</h1>
             <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
@@ -57,7 +56,7 @@
         </div>
     </section>
 
-    <section id="works">
+    <section id="works" class="section">
         <div class="wrapper">
             <h1>Works</h1>
             <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
@@ -65,7 +64,7 @@
         </div>
     </section>
 
-    <section id="contact">
+    <section id="contact" class="section">
         <div class="wrapper">
             <h1>Contact Me</h1>
             <h2>Lorem ipsum dolor sit.</h2>
@@ -73,14 +72,15 @@
         </div>
     </section>
 
-    <button class="arrow-up">
-        <span class="material-icons">
+    <!-- <button class="arrow_up">
+        <span class="material_icons">
             arrow_upward
         </span>
-    </button>
+    </button> -->
     
         
     <script src="index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.3/gsap.min.js" integrity="sha512-6zTDRWNxo8vI6JZYDCwhrJpg5icK3P4HNnW3czsO5Scb3lAoPDam+/wF3eog4hxcl0h44d0XlIcFkuoSaWHQ2g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </body>
 </html>
 

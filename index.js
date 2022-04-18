@@ -94,4 +94,29 @@ document.body.addEventListener("mousemove", evt => {
   })
 })
 
-// 페이지 스크롤
+// about
+const aboutTitle = document.querySelector('.about-title');
+
+document.addEventListener("scroll", ()=>{
+  if(window.scrollY > 500) {
+    aboutTitle.classList.add('show');
+  } else {
+    aboutTitle.classList.remove('show');
+  }
+  // } else if(window.scrollY > 1100) {
+    // aboutTitle.classList.remove('show');
+    // aboutTitle.classList.add('delete');
+  // } else {
+    // aboutTitle.classList.remove('delete');
+
+})
+
+// document.addEventListener("scroll", ()=>{
+//   if(window.scrollY > 1100) {
+//     aboutTitle.classList.remove('show');
+//     aboutTitle.classList.add('delete');
+//   } else {
+//     aboutTitle.classList.remove('delete');
+
+//   }
+// })

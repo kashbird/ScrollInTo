@@ -121,7 +121,17 @@ document.addEventListener("scroll", ()=>{
 //   }
 // })
 
-const skillT1 = document.querySelector('#skillt1');
-gsap.to(skillT1, {
-  duration: 2, text: "this is the new text", ease: "none"
+// gsap.to(skillT1, {
+//   duration: 2, text: "this is the new text", ease: "none"
+// });
+
+const skillT1 = document.querySelector('#skills .t1');
+
+document.addEventListener("scroll", (e)=> {
+  if (window.scrollY > 2811) {
+    gsap.to(skillT1, {
+      duration: 2, text: "Skills", ease: "none"
+    });
+  }
 });
+

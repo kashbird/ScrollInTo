@@ -125,12 +125,23 @@ document.addEventListener("scroll", ()=>{
 //   duration: 2, text: "this is the new text", ease: "none"
 // });
 
+const texts = "안녕하세요. 반갑습니다 :)";
+const aboutText = document.querySelector('#about-text');
+
+document.addEventListener("scroll", (e)=> {
+  if(window.scrollY > 2000) {
+    gsap.to(aboutText, {
+      duration: 2, text: texts, ease: "none"
+    });
+  }
+});
+
 const skillT1 = document.querySelector('#skills .t1');
 
 document.addEventListener("scroll", (e)=> {
   if (window.scrollY > 2811) {
     gsap.to(skillT1, {
-      duration: 2, text: "Skills", ease: "none"
+      duration: 1, text: "Skills", ease: "none"
     });
   }
 });

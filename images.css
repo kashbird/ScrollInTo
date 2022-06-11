@@ -1,0 +1,324 @@
+.categories .list:nth-child(1) {
+  background:#147eb8;
+}
+
+.categories .list:nth-child(1) .model{
+  background-image: url(./images/bg/bg1.png);
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.categories .list:hover:nth-child(1) {
+  background:#20b1ff;
+  transition: .5s;
+}
+.categories .list:hover:nth-child(1) .model {
+  transition: 0.5s;
+  background-size: contain;
+  height: 70%;
+  border-radius: 40px;
+}
+
+
+
+.categories .list:nth-child(2) {
+  background:#d6981b;
+}
+.categories .list:hover:nth-child(2) {
+  background:#ffbc36;
+  transition: .5s;
+}
+
+.categories .list:nth-child(2) .model{
+  background: url(./images/bg/bg2.png);
+  background-size: 88%;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.categories .list:hover:nth-child(2) .model {
+  transition: 0.5s;
+  background-size: 110%;
+  background-position: top center;
+  height: 70%;
+  border-radius: 40px;
+}
+
+.categories .list:nth-child(3) {
+  background:#a51d34;
+}
+.categories .list:hover:nth-child(3) {
+  background:#ff2d50;
+  transition: .5s;
+}
+
+.categories .list:nth-child(3) .model{
+  background: url(./images/bg/bg3.png);
+  background-size: 100%;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.categories .list:hover:nth-child(3) .model {
+  transition: 0.5s;
+  background-size: 120%;
+  background-position: top center;
+  height: 70%;
+  border-radius: 40px;
+}
+
+.categories .list:nth-child(4) {
+  background:#991dbe;
+}
+.categories .list:hover:nth-child(4) {
+  background:#af1cdb;
+  transition: .5s;
+}
+
+.categories .list:nth-child(4) .model{
+  background: url(./images/bg/bg4.png);
+  background-size: 62%;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+.categories .list:hover:nth-child(4) .model {
+  transition: 0.5s;
+  background-size: 78%;
+  background-position: top center;
+  height: 70%;
+  border-radius: 40px;
+}
+
+.categories .list:nth-child(5) {
+  background:#0d996a;
+}
+.categories .list:hover:nth-child(5) {
+  background:#13c78b;
+  transition: .5s;
+}
+
+.categories .list:nth-child(5) .model{
+  background: url(./images/bg/bg5.png);
+  background-size: 100%;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.categories .list:hover:nth-child(5) .model {
+  transition: 0.5s;
+  background-size: 125%;
+  background-position: top center;
+  height: 70%;
+  border-radius: 40px;
+}
+
+.categories .list:nth-child(6) {
+  background:#046d77;
+}
+.categories .list:hover:nth-child(6) {
+  background:#039ba8;
+  transition: .5s;
+}
+
+.categories .list:nth-child(6) .model{
+  background: url(./images/bg/bg6.png);
+  background-size: 100%;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+.categories .list:hover:nth-child(6) .model {
+  transition: 0.5s;
+  background-size: 125%;
+  background-position: top center;
+  height: 70%;
+  border-radius: 40px;
+}
+
+.categories .list:nth-child(7) {
+  background:#170699;
+}
+.categories .list:hover:nth-child(7) {
+  background:#1f07d3;
+  transition: .5s;
+}
+
+.categories .list:nth-child(7) .model{
+  background: url(./images/bg/bg7.png);
+  background-size: 65%;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+.categories .list:hover:nth-child(7) .model {
+  transition: 0.5s;
+  background-size: 85%;
+  background-position: top center;
+  height: 70%;
+  border-radius: 40px;
+}
+
+
+
+
+.fav_list:nth-child(1) .img {
+  background: url(/images/album/f1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.fav_list:nth-child(2) .img {
+  background: url(/images/album/f2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.fav_list:nth-child(3) .img {
+  background: url(/images/album/f3.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.fav_list:nth-child(4) .img {
+  background: url(/images/album/f4.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.fav_list:nth-child(5) .img {
+  background: url(/images/album/f5.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.fav_list:nth-child(6) .img {
+  background: url(/images/album/f6.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.fav_list:nth-child(7) .img {
+  background: url(/images/album/f7.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.fav_list:nth-child(8) .img {
+  background: url(/images/album/f8.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.fav_list:nth-child(9) .img {
+  background: url(/images/album/f9.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+
+.new_list:nth-child(1) .img {
+  background: url(./images/album/maluma/m1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.new_list:nth-child(2) .img {
+  background: url(./images/album/maluma/m2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.new_list:nth-child(3) .img {
+  background: url(./images/album/maluma/m3.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.new_list:nth-child(4) .img {
+  background: url(./images/album/maluma/m4.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.new_list:nth-child(5) .img {
+  background: url(./images/album/maluma/m5.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.new_list:nth-child(6) .img {
+  background: url(./images/album/maluma/m6.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.new_list:nth-child(7) .img {
+  background: url(./images/album/maluma/m7.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+.reco_list:nth-child(1) .img {
+  background: url(./images/album/jbalvin/j1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.reco_list:nth-child(2) .img {
+  background: url(./images/album/jbalvin/j2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.reco_list:nth-child(3) .img {
+  background: url(./images/album/jbalvin/j3.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.reco_list:nth-child(4) .img {
+  background: url(./images/album/jbalvin/j4.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.reco_list:nth-child(5) .img {
+  background: url(./images/album/jbalvin/j5.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.reco_list:nth-child(6) .img {
+  background: url(./images/album/jbalvin/j6.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.reco_list:nth-child(7) .img {
+  background: url(./images/album/jbalvin/j7.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}

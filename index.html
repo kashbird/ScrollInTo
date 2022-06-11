@@ -1,97 +1,269 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JsEX02</title>
-    <link rel="stylesheet" href="index.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="images.css">
 </head>
 <body>
-    <div class="button" id="toggle">
-      <span class="top"></span>
-      <span class="middle"></span>
-      <span class="bottom"></span>
-    </div>
-    <div class="overlay" id="overlay">
-      <nav class="overlay-menu">
-        <ul>
-          <li class="home close" ><a >HOME</a></li>
-          <li class="about close"><a >ABOUT</a></li>
-          <li class="skills close"><a >SKILL</a></li>
-          <li class="works close"><a >WORKS</a></li>
-          <li class="contact close"><a >CONTACT</a></li>
-        </ul>
-      </nav>
+  <nav>
+    <div class="gnb">
+      <div class="logo">JF Stream</div>
+      <div class="util">
+        <div class="arrow left"></div>
+        <div class="arrow right"></div>
+        <div class="search">
+          <div class="icon"></div>
+          <input type="text" placeholder="Search...">
+        </div>
+      </div>
     </div>
 
-    <section id="home" class="section">
-        <div class="wrapper">
-            <div class="shapes">
-              <div class="shape shape-1"></div>
-              <div class="shape shape-2"></div>
-              <div class="shape shape-3"></div>
-            </div>
-            <div class="content">
-              <h1>JiniFong's Portfolio</h1>
-            </div>
-        </div>
-    </section>
+    <div class="left_nav">
+      <ul>
+        <li class="list" style="--i:0"><a href="">Home</a></li>
+        <li class="list" style="--i:1"><a href="">Trend</a></li>
+        <li class="list" style="--i:1"><a href="">New</a></li>
+      </ul>
+    </div>
+  </nav>
 
-    <section id="about" class="section">
-        <div class="about-wrapper">
-            <span class="about-title">About</span>
-        </div>
-        <div class="about-img"></div>
-        <div class="about-txt">
-          <span class="t1">"</span>
-          <span class="t2" id="about-text"><div class="place"></div></span>
-          <span class="t3">저는 코딩과 디자인을 사랑하여 디발자를 꿈꾸는 청년 이홍진입니다.<br>
-          퍼즐처럼 맞춰나가는 코딩의 짜릿함과 애니메이션의 화려함에 사로잡혀 열심히 공부하고 있습니다.<br>
-          아직 많이 부족하여 방문하신 손님께 제공해드릴 작업물은 없습니다만, <br>
-          이 공간을 점점 채워나가는 모습을 보시는 것도 썩 나쁘지 않은 구경거리가 될 것이라고 생각합니다.<br>
-          조금만 기다려주세요. 눈요기하실만 한 작업물을 가져올게요.</span>
-          <span class="t1">"</span>
-        </div>
-    </section>
-
-    <section id="skills" class="section">
-        <div class="skill-wrapper">
-            <h1 class="t1" id="skillt1"></h1>
-            <div class="skill-info">
-
-            </div>
-        </div>
-    </section>
-
-    <section id="works" class="section">
-        <div class="wrapper">
-            <h1>Works</h1>
-            <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
-            <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias reprehenderit veniam, consequatur laborum nam quod architecto deserunt at error quis amet id voluptatibus ducimus vel velit magni illum temporibus ipsum!</h3>
-        </div>
-    </section>
-
-    <section id="contact" class="section">
-        <div class="wrapper">
-            <h1>Contact Me</h1>
-            <h2>Lorem ipsum dolor sit.</h2>
-            <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias reprehenderit veniam, consequatur laborum nam quod architecto deserunt at error quis amet id voluptatibus ducimus vel velit magni illum temporibus ipsum!</h3>
-        </div>
-    </section>
-
-    <!-- <button class="arrow_up">
-        <span class="material_icons">
-            arrow_upward
-        </span>
-    </button> -->
+  <section id="shortcuts">
+    <div class="top">
+      <h2 class="title">Shortcuts</h2>
+      <div class="util">
+        <button class="view">View all</button>
+        <div class="arrow left"></div>
+        <div class="arrow right"></div>
+      </div>
+    </div>
     
-        
-    <script src="index.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.3/gsap.min.js" integrity="sha512-6zTDRWNxo8vI6JZYDCwhrJpg5icK3P4HNnW3czsO5Scb3lAoPDam+/wF3eog4hxcl0h44d0XlIcFkuoSaWHQ2g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.3/TextPlugin.min.js" integrity="sha512-DmXIPFuirhMx0rhMJMDQFPGpsb07/8zKu9m5RsxW513Q0ros75qojlaMne6lADGuaf1a0msa9WHAkpHxb86W5Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <div class="categories">
+      <div class="list">
+        <p>Pop</p>
+        <div class="model"></div>
+      </div>
+
+      <div class="list">
+        <p>Jazz</p>
+        <div class="model"></div>
+      </div>
+
+      <div class="list">
+        <p>Latin</p>
+        <div class="model"></div>
+      </div>
+
+      <div class="list">
+        <p>Rap</p>
+        <div class="model"></div>
+      </div>
+
+      <div class="list">
+        <p>Reggae</p>
+        <div class="model"></div>
+      </div>
+
+      <div class="list">
+        <p>Rock</p>
+        <div class="model"></div>
+      </div>
+
+      <div class="list">
+        <p>Techno</p>
+        <div class="model"></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="favourites">
+    <div class="top">
+      <h2 class="title">Favourites</h2>
+      <div class="util">
+        <button class="view">View all</button>
+        <div class="arrow left"></div>
+        <div class="arrow right"></div>
+      </div>
+    </div>
+
+    <div class="fav_wrap">
+      <div class="fav_list">
+        <div class="img song"></div>
+        <p>La Noche De Anoche</p>
+        <p>Bad Bunny</p>
+      </div>
+
+      <div class="fav_list">
+        <div class="img song"></div>
+        <p>Yonaguni</p>
+        <p>Bad Bunny</p>
+      </div>
+
+      <div class="fav_list">
+        <div class="img song"></div>
+        <p>China</p>
+        <p>Anuel AA</p>
+      </div>
+
+      <div class="fav_list">
+        <div class="img song"></div>
+        <p>Mayores</p>
+        <p>Becky G</p>
+      </div>
+
+      <div class="fav_list">
+        <div class="img song"></div>
+        <p>MIA</p>
+        <p>Bad Bunny</p>
+      </div>
+
+      <div class="fav_list">
+        <div class="img song"></div>
+        <p></p>
+        <p></p>
+      </div>
+
+      <div class="fav_list">
+        <div class="img song"></div>
+        <p></p>
+        <p></p>
+      </div>
+
+      <div class="fav_list">
+        <div class="img song"></div>
+        <p></p>
+        <p></p>
+      </div>
+
+      <div class="fav_list">
+        <div class="img song"></div>
+        <p></p>
+        <p></p>
+      </div>
+    </div>
+  </section>
+
+  <section id="new">
+    <div class="top">
+      <h2 class="title">Maluma-Love & Sex Tape</h2>
+      <div class="util">
+        <button class="view">View all</button>
+        <div class="arrow left"></div>
+        <div class="arrow right"></div>
+      </div>
+    </div>
+
+    <div class="new_wrap">
+      <div class="new_list">
+        <div class="img"></div>
+        <p>The Love & Sex Tape</p>
+        <p>Maluma • Album</p>
+      </div>
+
+      <div class="new_list">
+        <div class="img"></div>
+        <p>Presenting Maluma</p>
+        <p>Maluma, Shakira, Justin Quiles, <br>
+          Ricky Martin</p>
+      </div>
+
+      <div class="new_list">
+        <div class="img"></div>
+        <p>Al Millón</p>
+        <p>Bad Bunny, Feid, Rauw, <br>
+          Alejandro, KAROL G</p>
+      </div>
+
+      <div class="new_list">
+        <div class="img"></div>
+        <p>Pon Reggaeton</p>
+        <p>Bad Bunny, Ryan Castro, <br>
+          Blessd, Feid</p>
+      </div>
+
+      <div class="new_list">
+        <div class="img song"></div>
+        <p>Mojando Asientos</p>
+        <p>Maluma</p>
+      </div>
+
+      <div class="new_list">
+        <div class="img song"></div>
+        <p>L.N.E.M.</p>
+        <p>Maluma</p>
+      </div>
+
+      <div class="new_list">
+        <div class="img song"></div>
+        <p>Cositas de la USA</p>
+        <p>Maluma</p>
+      </div>
+
+    </div>
+  </section>
+
+
+  <section id="recommend">
+    <div class="top">
+      <h2 class="title">J Balvin</h2>
+      <div class="util">
+        <button class="view">View all</button>
+        <div class="arrow left"></div>
+        <div class="arrow right"></div>
+      </div>
+    </div>
+
+    <div class="reco_wrap">
+      <div class="reco_list artist">
+        <div class="img"></div>
+        <p>Karol G</p>
+        <p>Follow 269M</p>
+      </div>
+
+      <div class="reco_list">
+        <div class="img"></div>
+        <p>Pump-Up Pop</p>
+        <p>Justin Bieber, The Chainsmokers,<br>
+          Dua Lipa</p>
+      </div>
+
+      <div class="reco_list">
+        <div class="img"></div>
+        <p>Dance-Pop Bangers</p>
+        <p>Dua Lipa, The Chainsmokers</p>
+      </div>
+
+      <div class="reco_list">
+        <div class="img"></div>
+        <p>Trendy Dance-Pop</p>
+        <p>Dua Lipa, Troye Sivan, <br>
+          Ariana Grande</p>
+      </div>
+
+      <div class="reco_list artist">
+        <div class="img"></div>
+        <p>Nicky Jam</p>
+        <p>Follow 230M</p>
+      </div>
+
+      <div class="reco_list">
+        <div class="img"></div>
+        <p>Champagne Diet</p>
+        <p>Doja Cat, Ed Sheeran, <br>
+          The Chainsmokers</p>
+      </div>
+
+      <div class="reco_list artist">
+        <div class="img"></div>
+        <p>Tainy</p>
+        <p>Follow 20.6M</p>
+      </div>
+
+      </div>
+    </div>
+  </section>
 </body>
 </html>
-

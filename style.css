@@ -4,10 +4,11 @@ body {
   background: #111;
   color: #fff;
   padding: 40px 100px;
+  overflow-x: hidden;
 }
 
 section {
-  padding-left: 150px;
+  margin-left: 150px;
   position: relative;
   margin-bottom: 80px;
 }
@@ -137,6 +138,7 @@ nav {
   top: 15%;
   left: 100px;
   position: fixed;
+  z-index: 99;
 }
 .left_nav ul {
   list-style: none;

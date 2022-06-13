@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="fonts.css">
 </head>
 <body>
-  <nav>
+  <nav id="nav">
     <div class="gnb">
       <div class="logo">JF Stream</div>
       <div class="util">
@@ -25,9 +25,11 @@
 
     <div class="left_nav">
       <ul>
-        <li class="list" style="--i:0"><a href="">Home</a></li>
-        <li class="list" style="--i:1"><a href="">Trend</a></li>
-        <li class="list" style="--i:1"><a href="">New</a></li>
+        <li class="list" style="--i:0"><a href="#nav">Home</a></li>
+        <li class="list" style="--i:1"><a href="#shortcuts">Shortcuts</a></li>
+        <li class="list" style="--i:1"><a href="#favourites">Favourites</a></li>
+        <li class="list" style="--i:1"><a href="#new">New Album</a></li>
+        <li class="list" style="--i:1"><a href="#recommend">Recommend</a></li>
       </ul>
     </div>
   </nav>
@@ -109,26 +111,26 @@
 
       <div class="fav_list">
         <div class="img song"></div>
-        <p></p>
-        <p></p>
+        <p>Qué Más Pues?</p>
+        <p>J Balvin, Maria Becerra</p>
       </div>
 
       <div class="fav_list">
         <div class="img song"></div>
-        <p></p>
-        <p></p>
+        <p>Con Calma</p>
+        <p>Daddy Yankee</p>
       </div>
 
       <div class="fav_list">
         <div class="img song"></div>
-        <p></p>
-        <p></p>
+        <p>No Me Conoce (Remix)</p>
+        <p>Jhay Cortez</p>
       </div>
 
       <div class="fav_list">
         <div class="img song"></div>
-        <p></p>
-        <p></p>
+        <p>Sobrio</p>
+        <p>Maluma</p>
       </div>
     </div>
   </section>
@@ -255,6 +257,8 @@
 
   <script src="index.js"></script>
   <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
   <script>
     var swiper = new Swiper(".mySwiper", {
       slidesPerView: 1,
@@ -282,6 +286,7 @@
         },
       },
     });
+
   </script>
 </body>
 </html>
